@@ -1,0 +1,13 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Handle all text files to always have LF endings
+*.css   text eol=lf
+*.js    text eol=lf
+*.php   text eol=lf
+*.scss  text eol=lf
+
+# Set binary files to not be converted
+*.jpg   binary
+*.png   binary
+*.gif   binary
